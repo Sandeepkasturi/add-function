@@ -1,0 +1,20 @@
+![hacker-hack](https://user-images.githubusercontent.com/112337452/210350641-50fa718a-fd90-4dd6-8e70-8622aeb43bb9.gif)
+# add-function
+CPP functions
+In the given code, object is an instance of the Addition class. The Addition class has a member function add, which is called using the object instance.
+
+
+
+
+The syntax for calling a member function of a class is:
+
+ object.function(arguments);
+
+
+
+
+Here, object is an instance of the class, and function is the name of the member function being called. arguments are the parameters being passed to the function.
+
+In the given code, object is an instance of the Addition class, and add is the name of the member function. The variables a and b are passed as arguments to the function.
+
+Therefore, the statement cout << "Sum: " << object.add(a, b) << endl; calls the add function on the object instance, passing the variables a and b as arguments, and prints the sum returned by the function to the console.
