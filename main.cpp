@@ -14,7 +14,7 @@ cout<<"Enter any Two numbers:";
 cin>>a>>b;
                /*Must create an instance of the class then only the output will come*/
 addition obj;
-cout<<"sum:" <<obj.add(a, b)<<endl;          /*The instance is {addition} and arguments are {a and b}
+cout<<"sum:" <<obj.add(a, b)<<endl;          /*The instance  is {addition} and arguments are {a and b} */
 }
 int addition::add (int x, int y)
 {
